@@ -14,6 +14,7 @@ int setgolf(golf & g){
 	if(strcmp(name, "") == 0) return 0;
 	std::cin >> hc;
 	setgolf(g, name, hc);
+	return 1;
 }
 
 void handicap(golf & g, int hc){
